@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+  <defs>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#d9cdbb" stroke-width="1" opacity=".55"/></pattern>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe8a6"/><stop offset=".52" stop-color="#f5b744"/><stop offset="1" stop-color="#c77d1c"/></linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2c8"/><stop offset="1" stop-color="#e9a632"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#755629" flood-opacity=".16"/></filter>
+  </defs>
+  <rect x="1" y="1" width="1598" height="638" rx="26" fill="#faf7f0" stroke="#e8dfcf" stroke-width="2"/>
+  <path d="M945 1h628a26 26 0 0 1 26 26v586a26 26 0 0 1-26 26H945Z" fill="#f2e9d7"/>
+  <path d="M945 1h628a26 26 0 0 1 26 26v586a26 26 0 0 1-26 26H945Z" fill="url(#grid)"/>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <rect x="62" y="54" width="48" height="48" rx="14" fill="#2f2a23"/>
+    <path d="M77 78h18m-9-9v18" stroke="#f7ca6b" stroke-width="5" stroke-linecap="round"/>
+    <text x="126" y="87" fill="#302b24" font-size="29" font-weight="750" letter-spacing="-.8">TokenFunPlus</text>
+    <text x="64" y="181" fill="#897450" font-size="17" font-weight="600" letter-spacing="3.2">A LITTLE CURIOSITY. A USEFUL NEXT THING.</text>
+    <g fill="#302b24" font-size="106" font-weight="750" letter-spacing="-5">
+      <text x="58" y="299">where tokens</text>
+      <text x="58" y="420">meet <tspan fill="#b77820">ideas.</tspan></text>
+    </g>
+    <text x="64" y="489" fill="#706657" font-size="27">AI tools, built around the way you work.</text>
+    <path d="M64 552h806" stroke="#dcd2c0"/>
+    <text x="64" y="593" fill="#625642" font-size="16" font-weight="600" letter-spacing="2">AI TOOLS</text>
+    <circle cx="208" cy="587" r="3" fill="#bf8c39"/>
+    <text x="233" y="593" fill="#625642" font-size="16" font-weight="600" letter-spacing="2">APPLICATIONS</text>
+    <circle cx="430" cy="587" r="3" fill="#bf8c39"/>
+    <text x="455" y="593" fill="#625642" font-size="16" font-weight="600" letter-spacing="2">EXPERIMENTS</text>
+    <circle cx="1263" cy="318" r="231" fill="#f7edda" stroke="#d6c5a2"/>
+    <circle cx="1263" cy="318" r="179" fill="none" stroke="#d6c5a2" stroke-dasharray="3 10"/>
+    <circle cx="1263" cy="318" r="119" fill="none" stroke="#dfcca8"/>
+    <path d="M1019 333c66-19 81-129 154-129s58 192 148 192 100-95 196-90" fill="none" stroke="#c28d35" stroke-width="2.5" opacity=".5"/>
+    <g transform="translate(1149 202) rotate(-12 114 114)" filter="url(#shadow)">
+      <rect x="3" y="15" width="228" height="228" rx="65" fill="#be7d22"/>
+      <rect width="228" height="228" rx="65" fill="url(#gold)" stroke="#ffdfa0" stroke-width="3"/>
+      <rect x="17" y="17" width="194" height="194" rx="51" fill="url(#coin)" stroke="#d59b38"/>
+      <path d="M114 68v92M68 114h92" stroke="#6f4617" stroke-width="27" stroke-linecap="round"/>
+      <path d="M114 68v92M68 114h92" stroke="#8a571b" stroke-width="22" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(995 134) rotate(-8)">
+      <rect width="170" height="60" rx="15" fill="#fffaf0" stroke="#dccbad"/>
+      <circle cx="27" cy="30" r="6" fill="#d79a32"/>
+      <text x="48" y="37" fill="#79613b" font-size="21" font-weight="500">a thought</text>
+    </g>
+    <g transform="translate(1355 115) rotate(8)">
+      <rect width="143" height="60" rx="15" fill="#fffaf0" stroke="#dccbad"/>
+      <text x="25" y="38" fill="#79613b" font-size="21" font-weight="500">a prompt</text>
+    </g>
+    <g transform="translate(1363 420) rotate(7)">
+      <rect width="153" height="63" rx="15" fill="#332d24"/>
+      <text x="24" y="39" fill="#f9deb0" font-size="21" font-weight="500">an app ↗</text>
+    </g>
+    <g transform="translate(1005 463) rotate(-8)">
+      <rect width="163" height="60" rx="15" fill="#fffaf0" stroke="#dccbad"/>
+      <text x="24" y="37" fill="#79613b" font-size="21" font-weight="500">an idea ✦</text>
+    </g>
+    <circle cx="1435" cy="296" r="7" fill="#a97624"/><circle cx="1102" cy="364" r="5" fill="#bba47a"/>
+    <path d="M1478 540v24m-12-12h24M1021 254v18m-9-9h18" stroke="#a7844b" stroke-width="2"/>
+  </g>
+</svg>
