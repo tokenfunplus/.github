@@ -14,7 +14,9 @@ The public organization homepage lives in [profile/README.md](profile/README.md)
 
 The homepage uses the PNG files in `profile/assets/`. Editable SVG sources for the organization hero and Binance Studio card live in `design/`. The organization artwork uses the warm amber palette of the existing avatar.
 
-The Cove card reuses the product cover from [`tokenfunplus.github.io/docs/assets/cove-social.png`](https://github.com/tokenfunplus/tokenfunplus.github.io/blob/8f43f023f60fdcc137c420c10929b91ad6388ba5/docs/assets/cove-social.png). It shows the actual Cove interface captured at app commit `25961b7`, using synthetic prompts and simulated model replies. It contains no personal conversations or provider credentials. Replace it from the website source when that cover changes.
+The Cove cover is composed in `design/cove/index.html`. It pairs the original ImageGen logo lockup with an actual Beta 2 file-chat capture from [`tokenfunplus.github.io/docs/cove/assets/files-light.webp`](https://github.com/tokenfunplus/tokenfunplus.github.io/blob/cd3fc273d4f0035751ae1fdedbfbdef9e0393310/docs/cove/assets/files-light.webp), captured at app commit `d82c39f`. The sample notes and model reply are synthetic; the capture contains no personal conversations or provider credentials. The wave mark matches the identity introduced in Cove Beta 2. The self-hosted Geist font and its SIL Open Font License are included in `design/cove/`.
+
+With Playwright available to Node, run `node design/cove/render.cjs` to render the 1200 × 630 PNG. Update the version in both the cover source and `profile/README.md` when a new beta ships. Keep the cover consistent with the application screenshots and published release.
 
 Render SVG-based PNG files with a local SVG renderer after editing their source files. Export at the SVG's native dimensions and check all artwork at desktop and mobile widths, in both GitHub themes. Keep previews and reference images in the ignored `output/` directory.
 

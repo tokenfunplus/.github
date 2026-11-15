@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cove organization profile cover</title>
+  <style>
+    @font-face { font-family: Geist; src: url("geist-latin.woff2") format("woff2"); font-weight: 100 900; }
+    * { box-sizing: border-box; }
+    html, body { width: 1200px; height: 630px; margin: 0; overflow: hidden; }
+    body { font-family: Geist, sans-serif; color: #23333e; background: #f8faf9; }
+    main { position: relative; width: 1200px; height: 630px; background: radial-gradient(ellipse at 90% 70%, #e5eef6, transparent 65%); }
+    .logo { position: absolute; left: 43px; top: 30px; width: 220px; height: auto; }
+    .copy { position: absolute; left: 60px; top: 176px; width: 470px; z-index: 1; }
+    .badge { display: inline-block; padding: 8px 12px; border: 1px solid #d9e5e4; border-radius: 30px; background: #fff; font-size: 11px; color: #486b6a; }
+    .badge::before { content: ""; display: inline-block; width: 6px; height: 6px; margin-right: 7px; border-radius: 50%; background: #62ad9e; }
+    h1 { font-size: 59px; line-height: 1.08; letter-spacing: -.06em; margin: 22px 0; font-weight: 650; }
+    h1 span { color: #5b799a; }
+    .copy p { font-size: 16px; line-height: 1.65; color: #586b78; }
+    .workspace { position: absolute; left: 557px; top: 119px; width: 940px; margin: 0; border: 1px solid #d2dce4; border-radius: 14px; overflow: hidden; box-shadow: 0 25px 60px #345c7a20; transform: rotate(-5deg); background: #fff; }
+    .workspace img { display: block; width: 100%; height: auto; }
+    .requirements { position: absolute; left: 60px; bottom: 43px; margin: 0; color: #586b78; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="logo.png" width="2172" height="724" alt="Cove">
+    <div class="copy">
+      <span class="badge">Public beta 2 · Now with file chat</span>
+      <h1>A little more room<br><span>for your AI.</span></h1>
+      <p>Your models. Your sources.<br>A workspace of your own.</p>
+    </div>
+    <figure class="workspace"><img src="workspace.webp" width="2160" height="1440" alt="Actual Cove Beta 2 file chat, using sample source notes and a simulated reply."></figure>
+    <p class="requirements">0.1.0-beta.2 &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; macOS 13+</p>
+  </main>
+</body>
+</html>
