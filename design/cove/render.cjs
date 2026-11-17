@@ -4,7 +4,7 @@ const { pathToFileURL } = require('node:url');
 const { chromium } = require('playwright');
 
 async function render() {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({ headless: true, executablePath: process.env.COVE_BROWSER_BIN || undefined });
   try {
     const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 });
     await page.goto(pathToFileURL(path.join(__dirname, 'index.html')).href, { waitUntil: 'networkidle' });

@@ -23,3 +23,5 @@ Render SVG-based PNG files with a local SVG renderer after editing their source 
 ## Review
 
 Check that all image files exist, linked resources are public, and the profile renders in GitHub's light and dark themes. No application code or private project data belongs in this repository.
+
+The Beta 4 cover keeps the actual Focus capture documented above and updates its release badge and version. Set `COVE_BROWSER_BIN` to a local Chromium or Chrome executable when rendering without Playwright-managed browser downloads. Profile copy and links now cover message search, draft protection, comparison exports, and explicit beta-update checks.
