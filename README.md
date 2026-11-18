@@ -25,3 +25,5 @@ Render SVG-based PNG files with a local SVG renderer after editing their source 
 Check that all image files exist, linked resources are public, and the profile renders in GitHub's light and dark themes. No application code or private project data belongs in this repository.
 
 The Beta 4 cover keeps the actual Focus capture documented above and updates its release badge and version. Set `COVE_BROWSER_BIN` to a local Chromium or Chrome executable when rendering without Playwright-managed browser downloads. Profile copy and links now cover message search, draft protection, comparison exports, and explicit beta-update checks.
+
+The Beta 5 profile update uses the unmodified synthetic answer-workbench capture from Cove source `79fb542` in `design/cove/workspace-beta5.png`. The regenerated cover and profile describe published `0.1.0-beta.5`, with current download/upgrade links, side conversations, reviewed revisions, model selection, reasoning, local equations, and response details. Earlier Focus artwork retains its provenance above.
