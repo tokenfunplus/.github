@@ -8,16 +8,16 @@
     @font-face { font-family: Geist; src: url("geist-latin.woff2") format("woff2"); font-weight: 100 900; }
     * { box-sizing: border-box; }
     html, body { width: 1200px; height: 630px; margin: 0; overflow: hidden; }
-    body { font-family: Geist, sans-serif; color: #23333e; background: #f8faf9; }
-    main { position: relative; width: 1200px; height: 630px; background: radial-gradient(ellipse at 90% 70%, #e5eef6, transparent 65%); }
+    body { font-family: Geist, sans-serif; color: #162c2a; background: #fafbf8; }
+    main { position: relative; width: 1200px; height: 630px; background: url("water.svg") center top / 1200px auto, radial-gradient(ellipse at 90% 70%, #e5f1ec, transparent 65%); }
     .logo { position: absolute; left: 43px; top: 30px; width: 220px; height: auto; }
     .copy { position: absolute; left: 60px; top: 176px; width: 470px; z-index: 1; }
     .badge { display: inline-block; padding: 8px 12px; border: 1px solid #d9e5e4; border-radius: 30px; background: #fff; font-size: 11px; color: #486b6a; }
     .badge::before { content: ""; display: inline-block; width: 6px; height: 6px; margin-right: 7px; border-radius: 50%; background: #62ad9e; }
     h1 { font-size: 59px; line-height: 1.08; letter-spacing: -.06em; margin: 22px 0; font-weight: 650; }
-    h1 span { color: #5b799a; }
+    h1 span { color: #236c61; }
     .copy p { font-size: 16px; line-height: 1.65; color: #586b78; }
-    .workspace { position: absolute; left: 555px; top: 150px; width: 640px; margin: 0; border: 1px solid #d2dce4; border-radius: 14px; overflow: hidden; box-shadow: 0 25px 60px #345c7a20; transform: rotate(-3deg); background: #fff; }
+    .workspace { position: absolute; left: 555px; top: 145px; width: 660px; margin: 0; border: 1px solid #d2dce4; border-radius: 14px; overflow: hidden; box-shadow: 0 25px 60px #345c7a20; transform: rotate(-3deg); background: #fff; }
     .workspace img { display: block; width: 100%; height: auto; }
     .requirements { position: absolute; left: 60px; bottom: 43px; margin: 0; color: #586b78; font-size: 11px; }
   </style>
@@ -26,12 +26,12 @@
   <main>
     <img class="logo" src="logo.png" width="2172" height="724" alt="Cove">
     <div class="copy">
-      <span class="badge">Public beta 5 · Answers into working drafts</span>
+      <span class="badge">Public beta 7 · Follow the ideas</span>
       <h1>A little more room<br><span>for your AI.</span></h1>
-      <p>Explore a passage. Revise a draft.<br>Keep the original answer intact.</p>
+      <p>Compare answers. Follow debates.<br>Track ideas, usage, and pace.</p>
     </div>
-    <figure class="workspace"><img src="workspace-beta5.png" width="1440" height="900" alt="Actual Cove answer workbench beside a synthetic conversation."></figure>
-    <p class="requirements">0.1.0-beta.5 &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; macOS 13+</p>
+    <figure class="workspace"><img src="workspace-beta7.png" width="1440" height="900" alt="Actual Cove Beta 7 Debate workspace with a cited stage summary and synthetic discussion."></figure>
+    <p class="requirements">0.1.0-beta.7 &nbsp;·&nbsp; Apple Silicon &nbsp;·&nbsp; macOS 13+</p>
   </main>
 </body>
 </html>
